@@ -1,0 +1,71 @@
+/* V6.5 — dedicated outlined Trade & Partnerships navigation action.
+   Nav only: existing artwork, headers, and other link styles remain untouched. */
+.site-header .site-nav a.sg-trade-nav-link,
+.topbar nav a.sg-trade-nav-link,
+.sg-worn-live-nav a.sg-trade-nav-link,
+.sgmh-links a.sg-trade-nav-link {
+ box-sizing:border-box;display:inline-flex;justify-content:center;align-items:center;
+ gap:8px;flex:0 0 auto;min-height:35px;
+ border:1px solid #c48b5e;border-radius:2px;
+ padding:9px 12px;text-decoration:none!important;
+ color:#f2e7d9!important;background:rgba(183,110,60,.085);
+ font-weight:700;line-height:1.1;letter-spacing:.045em;
+ text-shadow:none;white-space:nowrap;
+ transition:border-color .2s ease,background-color .2s ease,color .2s ease;
+}
+.site-header .site-nav a.sg-trade-nav-link:after,
+.topbar nav a.sg-trade-nav-link:after,
+.sg-worn-live-nav a.sg-trade-nav-link:after,
+.sgmh-links a.sg-trade-nav-link:after {content:'↗';font-size:1.05em;line-height:1;color:#ddb48c}
+.site-header .site-nav a.sg-trade-nav-link:hover,
+.topbar nav a.sg-trade-nav-link:hover,
+.sg-worn-live-nav a.sg-trade-nav-link:hover,
+.sgmh-links a.sg-trade-nav-link:hover {
+ color:#fff6e9!important;border-color:#f3be8b;background:rgba(183,110,60,.21);
+ text-decoration:none!important;
+}
+.site-header .site-nav a.sg-trade-nav-link:focus-visible,
+.topbar nav a.sg-trade-nav-link:focus-visible,
+.sg-worn-live-nav a.sg-trade-nav-link:focus-visible,
+.sgmh-links a.sg-trade-nav-link:focus-visible {outline:2px solid #f6cf9d!important;outline-offset:3px;color:#fff9ee!important}
+.site-header .site-nav a.sg-trade-nav-link[aria-current="page"] {color:#fff2df!important;background:rgba(183,110,60,.18);text-decoration:none!important;border-color:#dcaa80}
+/* Seven header destinations; improve fitting without shrinking the trademark logo. */
+@media (min-width:1081px) and (max-width:1570px){
+ .site-header .header-location{display:none}
+ .site-header .site-nav{gap:clamp(7px,.92vw,15px)}
+ .site-header .site-nav a{font-size:clamp(10px,.77vw,12px);letter-spacing:.055em}
+ .site-header .site-nav a.sg-trade-nav-link{font-size:clamp(10px,.75vw,12px);padding:9px 10px}
+}
+/* Some spirit pages have a JS-controlled menu rather than the CSS checkbox header. */
+@media (min-width:761px) and (max-width:1190px){
+ .site-header .nav-toggle{display:flex;align-items:center;gap:9px;background:transparent;color:#e5ccb0;border:1px solid #b56a3a;padding:10px 12px;font:700 12px 'Courier New',monospace;letter-spacing:.09em;cursor:pointer}
+ .site-header .site-nav:not(.sg-menu-nav){display:none;position:absolute;left:0;right:0;top:100%;z-index:2000;flex-direction:column;align-items:stretch;gap:0;background:#082532;border-bottom:2px solid #b56a3a;padding:10px 22px 22px;box-shadow:0 14px 20px #0007}
+ .site-header .site-nav:not(.sg-menu-nav).is-open{display:flex}
+ .site-header .site-nav:not(.sg-menu-nav)>a{font-size:14px;white-space:normal;padding:14px 7px;border-bottom:1px solid #456071}
+}
+/* Mobile dropdown: make the Trade action a deliberate bordered row. */
+@media (max-width:1190px){
+ .site-header .site-nav:not(.sg-menu-nav) a.sg-trade-nav-link {align-self:stretch;justify-content:space-between;margin:12px 0 9px;border:1px solid #c48b5e!important;padding:13px 16px!important;min-height:47px;white-space:normal}
+}
+@media (max-width:1080px){
+ .site-header .sg-menu-control>.sg-menu-nav a.sg-trade-nav-link {display:flex!important;justify-content:space-between!important;align-items:center!important;min-height:48px!important;border:1px solid #c48b5e!important;padding:13px 16px!important;margin:11px 0 10px;background:rgba(183,110,60,.085)!important;color:#f2e7d9!important;white-space:normal!important}
+}
+/* Homepage desktop nav sits over original approved poster artwork. */
+@media (min-width:761px){
+ .sg-worn-live-nav{left:42.4%;right:1.0%;gap:clamp(2px,.28vw,6px)}
+ .sg-worn-live-nav a{font-size:clamp(9px,.79vw,14px);letter-spacing:0}
+ .sg-worn-live-nav a.sg-trade-nav-link{min-height:35px;padding:8px clamp(5px,.6vw,10px);font-size:clamp(9px,.77vw,13px);letter-spacing:0}
+}
+@media (min-width:761px) and (max-width:1060px){
+ .sg-worn-live-nav{left:40.2%;right:.7%;gap:1px}
+ .sg-worn-live-nav a{font-size:clamp(8px,.76vw,10px)}
+ .sg-worn-live-nav a.sg-trade-nav-link{min-height:29px;padding:6px 5px;font-size:clamp(8px,.73vw,10px)}
+}
+/* Homepage mobile menu */
+@media (max-width:760px){
+ .sgmh-links a.sg-trade-nav-link {width:100%;justify-content:space-between;margin:12px 0 10px;padding:13px 15px;min-height:47px}
+}
+/* Footer destinations remain straightforward text links, not navigation buttons. */
+.site-footer nav .sg-trade-nav-link{color:#e5b58b;font-weight:700}
+.site-footer nav .sg-trade-nav-link:hover{color:#f7d3a9;text-decoration:underline;text-underline-offset:4px}
+@media(prefers-reduced-motion:reduce){.sg-trade-nav-link{transition:none!important}}

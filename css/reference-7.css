@@ -1,0 +1,57 @@
+
+:root{--mono:'Courier New',monospace}
+.site-header{height:89px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(20px,4.5vw,72px);background:#071e2a;color:#f5ebd8;border-bottom:1px solid #94704e;position:relative;z-index:20;gap:20px}
+.site-header .header-brand{display:flex;align-items:center;gap:34px;flex-shrink:0}
+.site-header .logo-link{display:flex;flex-direction:column;align-items:center;justify-content:center;width:136px;text-decoration:none}
+.site-header .logo-link img{display:block;width:100%;height:auto;max-height:63px;object-fit:contain}
+.site-header .header-location{font:12px var(--mono);letter-spacing:.18em;border-left:1px solid #bfb1a2;padding-left:30px;white-space:nowrap}
+.site-header .site-nav{display:flex;align-items:center;justify-content:flex-end;gap:clamp(15px,2.5vw,35px)}
+.site-header .site-nav a{font:700 12px/1.3 'Roboto Condensed','Arial Narrow',sans-serif;letter-spacing:.13em;text-decoration:none;white-space:nowrap;transition:color .2s}
+.site-header .site-nav a:hover,.site-header .site-nav a:focus-visible,.site-header .site-nav a[aria-current=page]{color:#df8d4d}
+.site-header .site-nav a[aria-current=page]{text-decoration:underline;text-underline-offset:8px;text-decoration-thickness:1px}
+.site-header .sg-menu-control{display:contents}
+.site-header .sg-menu-state,.site-header .sg-menu-toggle,.site-header .sg-menu-backdrop{display:none}
+.site-header .sg-menu-nav{display:flex}
+.site-footer{padding:35px clamp(28px,6vw,100px) 25px;color:#e7d6be;border-top:1px solid #b16c3e;background:#071f2c}
+.site-footer .footer-primary{display:flex;align-items:center;justify-content:space-between;gap:25px;font:700 10px var(--mono);letter-spacing:.14em}
+.site-footer .footer-logo{width:114px;display:flex;flex-direction:column;align-items:center;text-decoration:none;flex-shrink:0}
+.site-footer .footer-logo img{height:52px;width:108px;display:block;object-fit:contain}
+.site-footer .footer-phrase{font:italic 27px Georgia,serif;letter-spacing:-.035em;color:#d38a56;text-transform:none}
+.site-footer nav{display:flex;justify-content:center;flex-wrap:wrap;gap:20px;margin:26px 0}
+.site-footer nav a{font:700 12px 'Barlow Condensed','Arial Narrow',sans-serif;letter-spacing:.1em;text-decoration:none}
+.site-footer nav a:hover{text-decoration:underline}
+.site-footer p{border-top:1px solid #486071;padding-top:17px;margin:0;text-align:center;font:10px var(--mono);letter-spacing:.1em;color:#cebeaa}
+@media(max-width:1240px){.site-header{padding:0 28px}.site-header .header-brand{gap:18px}.site-header .site-nav{gap:16px}.site-header .site-nav a{font-size:11px}}
+@media(max-width:1080px){
+ .site-header{position:relative!important;z-index:1000!important;overflow:visible!important}
+ .site-header .header-location{display:none}
+ .site-header .sg-menu-control{display:block;margin-left:auto}
+ .site-header .sg-menu-state{position:absolute;opacity:0;width:1px;height:1px;left:-9999px;display:block}
+ .site-header .sg-menu-toggle{position:relative;z-index:1003;display:flex;align-items:center;gap:11px;justify-content:center;border:1px solid #b56a3a;background:#082532;color:#e5ccb0;padding:11px 14px;cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation;font:700 12px/1.25 'Courier New',monospace;letter-spacing:.1em}
+ .site-header .sg-menu-state:focus-visible+.sg-menu-toggle{outline:2px solid #eeb67c;outline-offset:3px}
+ .site-header .sg-menu-state:checked+.sg-menu-toggle .sg-menu-icon{font-size:0}
+ .site-header .sg-menu-state:checked+.sg-menu-toggle .sg-menu-icon:after{content:'×';font-size:22px;line-height:10px}
+ .site-header .sg-menu-backdrop{display:none;position:fixed;inset:0;z-index:1001;background:transparent;cursor:default;-webkit-tap-highlight-color:transparent}
+ .site-header .sg-menu-state:checked~.sg-menu-backdrop{display:block}
+ .site-header .sg-menu-control>.sg-menu-nav{display:none!important;position:absolute!important;top:100%!important;left:0!important;right:0!important;width:100%!important;z-index:1002!important;flex-direction:column!important;align-items:stretch!important;gap:0!important;padding:12px 22px 24px!important;background:#082532!important;color:#f5ebd8!important;border-bottom:2px solid #b56a3a!important;box-shadow:0 16px 25px rgba(0,0,0,.55)!important}
+ .site-header .sg-menu-state:checked~.sg-menu-nav{display:flex!important}
+ .site-header .sg-menu-nav>a{display:block!important;white-space:normal!important;font-size:14px!important;padding:15px 7px!important;border-bottom:1px solid #456071!important}
+}
+@media(min-width:1081px){.site-header .sg-menu-control>.sg-menu-nav{display:flex!important}}
+@media(max-width:760px){.site-header{height:78px;padding:8px 19px}.site-header .logo-link{width:116px}.site-footer .footer-primary{display:flex;flex-direction:column;align-items:center;gap:13px;text-align:center}.site-footer .footer-phrase{font-size:27px}.site-footer nav{gap:14px}.site-footer nav a{font-size:11px}}
+
+/* V6.11 — exact header parity with Collection / Craft / Trade templates.
+   Preserve their sitewide 15px desktop typography and existing mobile menu breakpoints. */
+@media (min-width:761px) and (max-width:1080px){
+  .site-header{height:89px}
+}
+@media (min-width:761px) and (max-width:980px){
+  .site-header{height:77px}
+}
+@media (min-width:981px) and (max-width:1080px){
+  .site-header .header-location{display:block}
+}
+
+/* Keep header-only inherited typography identical to the other site templates. */
+.site-header{font-family:'Courier New',Cousine,monospace}
+.site-header .header-location{font-family:'Courier New',Cousine,monospace}

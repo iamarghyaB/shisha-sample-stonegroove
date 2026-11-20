@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="Musically Mastered mark">
+  <title>Musically Mastered mark</title>
+  <circle cx="120" cy="120" r="112" fill="#B87333"></circle>
+  <circle cx="120" cy="120" r="105" fill="none" stroke="#173A5E" stroke-width="3"></circle>
+  <circle cx="120" cy="120" r="98" fill="none" stroke="#173A5E" stroke-width="3"></circle>
+  <circle cx="120" cy="120" r="92" fill="#173A5E"></circle>
+  <g fill="none" stroke="#B87333" stroke-width="16" stroke-linejoin="miter" stroke-miterlimit="8">
+    <path d="M82 102 V58 L120 92 L158 58 V102"></path>
+    <path d="M82 138 V182 L120 148 L158 182 V138"></path>
+  </g>
+  <path d="M28 120 H50 L64 98 L76 120 H164 L176 142 L190 120 H212" fill="none" stroke="#D5966E" stroke-width="6" stroke-linejoin="miter" stroke-miterlimit="8"></path>
+</svg>

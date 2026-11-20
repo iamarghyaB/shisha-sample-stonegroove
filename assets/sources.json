@@ -1,0 +1,314 @@
+{
+  "permission": "User confirmed permission for private demos and public GitHub/Vercel publication on 21 November 2026.",
+  "reference": "https://stonegroovespirits.com/",
+  "assets": [
+    {
+      "source": "https://stonegroovespirits.com/assets/stone-groove-spirits-logo-copper-master.svg",
+      "local": "assets/images/458e3c8cec-stone-groove-spirits-logo-copper-master.svg"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-7e37082dc2085c.webp",
+      "local": "assets/images/f252891475-art-7e37082dc2085c.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/stone-groove-spirits-logo-black-master.svg",
+      "local": "assets/images/5428da241d-stone-groove-spirits-logo-black-master.svg"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-4f913ceccc529d.webp",
+      "local": "assets/images/7aa11a7bc4-art-4f913ceccc529d.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-b0f0ca1c51a087.webp",
+      "local": "assets/images/2fc5d041ad-art-b0f0ca1c51a087.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-1bf3a6f270babd.webp",
+      "local": "assets/images/7c120240e9-art-1bf3a6f270babd.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-70e6ff052b093f.webp",
+      "local": "assets/images/5b5a95d755-art-70e6ff052b093f.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-f47c939307b2cd.webp",
+      "local": "assets/images/4fc6eb11b9-art-f47c939307b2cd.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/musically-mastered-mark-primary.svg",
+      "local": "assets/images/672e33ed90-musically-mastered-mark-primary.svg"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-85f0da89b1d358.webp",
+      "local": "assets/images/4fcdf0a77e-art-85f0da89b1d358.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-fc9201e30acc53.webp",
+      "local": "assets/images/28dd527c2a-art-fc9201e30acc53.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-3702a52c31c555.webp",
+      "local": "assets/images/10eed6b61d-art-3702a52c31c555.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-5df0dd1c6de3d4.webp",
+      "local": "assets/images/d9b4f41223-art-5df0dd1c6de3d4.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-f9ed08fcaaf928.webp",
+      "local": "assets/images/1beaf9a075-art-f9ed08fcaaf928.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-485b91f181ae78.webp",
+      "local": "assets/images/01cca8271b-art-485b91f181ae78.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-df33f51507a1f0.webp",
+      "local": "assets/images/4ace918886-art-df33f51507a1f0.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-586ab32ed9c75b.webp",
+      "local": "assets/images/91e82169da-art-586ab32ed9c75b.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-3b4ebd6fca602c.webp",
+      "local": "assets/images/e843070892-art-3b4ebd6fca602c.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-79c1f4a43895d2.webp",
+      "local": "assets/images/3673615be9-art-79c1f4a43895d2.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-1da69b7844ac65.webp",
+      "local": "assets/images/0c689bcc23-art-1da69b7844ac65.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-1a1d03d49fc3a8.webp",
+      "local": "assets/images/e1469f08e2-art-1a1d03d49fc3a8.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-d9af54f189459f.webp",
+      "local": "assets/images/6b6c667384-art-d9af54f189459f.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/collection-v3-homepage-heading.webp",
+      "local": "assets/images/9be6d2a893-collection-v3-homepage-heading.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/collection-v3-mobile-heading.webp",
+      "local": "assets/images/74ab365fa7-collection-v3-mobile-heading.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/collection-v5-original-vinyl-mobile.webp",
+      "local": "assets/images/5101e39078-collection-v5-original-vinyl-mobile.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/collection-v3-photographic-vinyl.png",
+      "local": "assets/images/337181ae1c-collection-v3-photographic-vinyl.png"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/collection-v3-label-country.webp",
+      "local": "assets/images/33ea308892-collection-v3-label-country.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/collection-v3-label-blues.webp",
+      "local": "assets/images/6f3bdab509-collection-v3-label-blues.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/collection-v3-label-classic-rock.webp",
+      "local": "assets/images/69c1f4af14-collection-v3-label-classic-rock.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/collection-v3-label-jazz-fusion.webp",
+      "local": "assets/images/2a40a6d111-collection-v3-label-jazz-fusion.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/mm-v6-art-03.webp",
+      "local": "assets/images/b857f7ed59-mm-v6-art-03.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/mm-v6-art-01.webp",
+      "local": "assets/images/88a682a869-mm-v6-art-01.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/mm-v6-art-04.webp",
+      "local": "assets/images/9ea7931bbb-mm-v6-art-04.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/mm-v6-art-05.webp",
+      "local": "assets/images/8541efe702-mm-v6-art-05.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/mm-v6-art-06.webp",
+      "local": "assets/images/b79dc2a833-mm-v6-art-06.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/mm-v6-art-07.webp",
+      "local": "assets/images/fe0282a815-mm-v6-art-07.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/mm-v6-art-08.webp",
+      "local": "assets/images/98c57c198e-mm-v6-art-08.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/where-to-buy-country-pour-hero-v6.webp",
+      "local": "assets/images/cc40f55ad0-where-to-buy-country-pour-hero-v6.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/craft-v1-approved-title.webp",
+      "local": "assets/images/5eeab44229-craft-v1-approved-title.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/craft-v4-hero-audition-v6.webp",
+      "local": "assets/images/164723f938-craft-v4-hero-audition-v6.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/craft-v6-type-audition.webp",
+      "local": "assets/images/62d47b0b23-craft-v6-type-audition.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/craft-v4-material-barrel-v6.webp",
+      "local": "assets/images/b1a6881a7e-craft-v4-material-barrel-v6.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/craft-v4-arrangement-lab-v6.webp",
+      "local": "assets/images/8fec21415c-craft-v4-arrangement-lab-v6.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/story-original-art-4ce1dda6963f.webp",
+      "local": "assets/images/355c79f868-story-original-art-4ce1dda6963f.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/story-original-photo-3c8d8a1b4ba9-v6.webp",
+      "local": "assets/images/33ef6285dc-story-original-photo-3c8d8a1b4ba9-v6.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/story-original-art-e4a1fcbe5db3.webp",
+      "local": "assets/images/68ed918bcb-story-original-art-e4a1fcbe5db3.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/story-original-photo-f406b3a9ef18-v6.webp",
+      "local": "assets/images/4d5e10914a-story-original-photo-f406b3a9ef18-v6.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/collection-v3-edge-strip.webp",
+      "local": "assets/images/38080388c8-collection-v3-edge-strip.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/collection-v4-paper-grain.webp",
+      "local": "assets/images/a53dd0cb05-collection-v4-paper-grain.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/collection-v4-worn-navy.webp",
+      "local": "assets/images/3e014252f0-collection-v4-worn-navy.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/trade-country-bourbon-old-fashioned.jpg",
+      "local": "assets/images/12a6228762-trade-country-bourbon-old-fashioned.jpg"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/country-bourbon-master-v6.webp",
+      "local": "assets/images/188f789c90-country-bourbon-master-v6.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/blues-bourbon-master.webp",
+      "local": "assets/images/e440fea0b8-blues-bourbon-master.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/classic-rock-rye-master-v6.webp",
+      "local": "assets/images/69bf07b904-classic-rock-rye-master-v6.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/jazz-fusion-master-v6.webp",
+      "local": "assets/images/d660e505a9-jazz-fusion-master-v6.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-bed822aa70d528.webp",
+      "local": "assets/images/873c7f9ad0-art-bed822aa70d528.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-ff305c6cd8a8cb.webp",
+      "local": "assets/images/7f83125aee-art-ff305c6cd8a8cb.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-90e0712a31ec44.webp",
+      "local": "assets/images/beecb58e1b-art-90e0712a31ec44.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-62c6fec7a4c004.webp",
+      "local": "assets/images/b6e99c94af-art-62c6fec7a4c004.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-7f6addde0e14e1.webp",
+      "local": "assets/images/cc228ce468-art-7f6addde0e14e1.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/art-c020c72cdb935d.webp",
+      "local": "assets/images/1a3e0c37bf-art-c020c72cdb935d.webp"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/homepage-header-lettering-patches.png",
+      "local": "assets/images/414db36820-homepage-header-lettering-patches.png"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/homepage-nav-cleanup-overlay.png",
+      "local": "assets/images/6f6a1592ef-homepage-nav-cleanup-overlay.png"
+    },
+    {
+      "source": "https://stonegroovespirits.com/assets/collection-v4-worn-edge.webp",
+      "local": "assets/images/69220e8c93-collection-v4-worn-edge.webp"
+    },
+    {
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4-Lw_3E.ttf",
+      "local": "assets/fonts/6c61ba2d94-HTxwL3I-JCGChYJ8VI-L6OO_au7B4-Lw_3E.ttf"
+    },
+    {
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873_3E.ttf",
+      "local": "assets/fonts/5239fa7ab8-HTxwL3I-JCGChYJ8VI-L6OO_au7B4873_3E.ttf"
+    },
+    {
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2_3E.ttf",
+      "local": "assets/fonts/5e1a3142d2-HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2_3E.ttf"
+    },
+    {
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B47b1_3E.ttf",
+      "local": "assets/fonts/08af9cb467-HTxwL3I-JCGChYJ8VI-L6OO_au7B47b1_3E.ttf"
+    },
+    {
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B45L0_3E.ttf",
+      "local": "assets/fonts/9b9656dc10-HTxwL3I-JCGChYJ8VI-L6OO_au7B45L0_3E.ttf"
+    },
+    {
+      "source": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf",
+      "local": "assets/fonts/1672035a48-rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf"
+    },
+    {
+      "source": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhTg.ttf",
+      "local": "assets/fonts/f203f442b1-rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhTg.ttf"
+    },
+    {
+      "source": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJthTg.ttf",
+      "local": "assets/fonts/bd1b511307-rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJthTg.ttf"
+    },
+    {
+      "source": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthTg.ttf",
+      "local": "assets/fonts/569a38202b-rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthTg.ttf"
+    },
+    {
+      "source": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpthTg.ttf",
+      "local": "assets/fonts/e430d0cc9b-rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpthTg.ttf"
+    },
+    {
+      "source": "https://fonts.gstatic.com/s/librebaskerville/v24/kmKWZrc3Hgbbcjq75U4uslyuy4kn0qNccR04_RUJeby2OU36SgNK.ttf",
+      "local": "assets/fonts/bc6c06b316-kmKWZrc3Hgbbcjq75U4uslyuy4kn0qNccR04_RUJeby2OU36SgNK.ttf"
+    },
+    {
+      "source": "https://fonts.gstatic.com/s/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4SCQ.ttf",
+      "local": "assets/fonts/472c706841-kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4SCQ.ttf"
+    },
+    {
+      "source": "https://fonts.gstatic.com/s/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17ujFgkSCQ.ttf",
+      "local": "assets/fonts/350f5a15da-kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17ujFgkSCQ.ttf"
+    }
+  ]
+}

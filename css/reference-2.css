@@ -1,0 +1,63 @@
+/* V6.10 — shared, readable site navigation.
+   Scoped to navigation elements only; no hero, brand asset or page copy changes.
+   Preserve original mobile behavior instead of converting tablet/desktop to dropdowns. */
+@media (min-width:1081px) {
+  .site-header .site-nav {
+    gap:clamp(8px, .87vw, 17px)!important;
+  }
+  .site-header .site-nav > a {
+    font-size:clamp(13px,1.05vw,16px)!important;
+    line-height:1.25!important;
+    letter-spacing:.035em!important;
+    white-space:nowrap;
+  }
+  .site-header .site-nav > a.sg-trade-nav-link {
+    min-height:40px!important;
+    padding:9px 10px!important;
+    letter-spacing:.02em!important;
+  }
+  /* The logo retains its original dimensions; the unneeded city text steps aside. */
+}
+@media (min-width:1081px) and (max-width:1570px){
+  .site-header .header-location{display:none!important}
+}
+/* Small desktop widths: keep the full desktop links without horizontal scroll. */
+@media (min-width:1081px) and (max-width:1150px) {
+  .site-header{padding-inline:20px!important}
+  .site-header .site-nav{gap:6px!important}
+  .site-header .site-nav > a{font-size:12px!important;letter-spacing:0!important}
+  .site-header .site-nav > a.sg-trade-nav-link{min-height:36px!important;padding:7px 8px!important}
+}
+/* All templates retain their existing 1080px / 1190px mobile menu logic. */
+@media (max-width:1080px) {
+  .site-header .sg-menu-control > .sg-menu-nav > a,
+  .site-header .site-nav:not(.sg-menu-nav) > a {font-size:16px!important;line-height:1.4!important}
+  .site-header .sg-menu-toggle,.site-header .nav-toggle {font-size:14px!important}
+}
+/* Homepage overlay typography: retain the original positioned editorial header. */
+@media (min-width:761px) {
+  .sg-worn-live-nav {
+    left:39.8%!important;
+    right:.9%!important;
+    gap:clamp(2px,.28vw,6px)!important;
+  }
+  .sg-worn-live-nav > a {
+    font-size:clamp(11px,1.035vw,16px)!important;
+    letter-spacing:0!important;
+    white-space:nowrap;
+  }
+  .sg-worn-live-nav > a.sg-trade-nav-link {
+    font-size:clamp(11px,.98vw,15px)!important;
+    min-height:35px!important;
+    padding:7px clamp(4px,.5vw,9px)!important;
+    gap:3px!important;
+  }
+}
+@media (min-width:761px) and (max-width:1160px) {
+  .sg-worn-live-nav {left:37.5%!important;right:.6%!important;gap:1px!important}
+  .sg-worn-live-nav > a {font-size:clamp(10px,1vw,12px)!important}
+  .sg-worn-live-nav > a.sg-trade-nav-link {font-size:clamp(10px,.95vw,12px)!important;padding:6px 4px!important}
+}
+@media (max-width:760px) {
+  .sgmh-links > a{font-size:16px!important;line-height:1.35!important}
+}

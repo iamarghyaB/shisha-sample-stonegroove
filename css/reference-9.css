@@ -1,0 +1,132 @@
+/* Stone Groove Spirits / Trade & Partnerships
+   V6.4 new page only. Uses existing official logo and restrained navy/copper/paper palette. */
+.trade-hero,.trade-context,.trade-contact,.trade-outro,.trade-thanks,.trade-privacy-page{box-sizing:border-box}
+.trade-hero *,.trade-context *,.trade-contact *,.trade-outro *,.trade-thanks *,.trade-privacy-page *{box-sizing:border-box}
+.trade-hero{display:grid;grid-template-columns:minmax(0,1.13fr) minmax(0,.87fr);background:#f3e6d2;color:#082837;border-bottom:7px solid #ad6538;min-height:610px;overflow:hidden}
+.trade-hero-copy{padding:32px clamp(30px,6vw,95px) 68px;display:flex;flex-direction:column;align-items:flex-start;background-image:radial-gradient(#b78d6350 .55px,transparent 1px);background-size:9px 9px}
+.trade-prelude{display:flex;justify-content:space-between;align-self:stretch;gap:20px;font:700 10px/1.4 'Courier New',monospace;color:#785b49;letter-spacing:.10em;border-bottom:1px solid #c5ab8e;padding-bottom:14px}
+.trade-eyebrow{font:700 11px/1.5 'Courier New',monospace!important;letter-spacing:.16em!important;color:#b9562d!important;margin:0 0 24px!important;text-transform:uppercase}
+.trade-hero .trade-eyebrow{margin-top:auto!important}
+.trade-hero h1,.trade-contact h2,.trade-thanks h1,.trade-privacy-page h1{font:900 clamp(72px,9vw,160px)/.81 Impact,'Roboto Condensed','Arial Narrow',sans-serif!important;letter-spacing:-.055em!important;color:#082837;text-transform:uppercase;margin:0 0 31px!important;white-space:normal}
+.trade-hero h1 em,.trade-contact h2 em,.trade-thanks h1 em,.trade-privacy-page h1 em{color:#b9562d;font-style:normal}
+.trade-lead{font:900 clamp(22px,2.35vw,34px)/1.1 Impact,'Roboto Condensed','Arial Narrow',sans-serif;color:#0e3d50;letter-spacing:.01em;margin:0 0 13px!important}
+.trade-intro{font:15px/1.8 'Courier New',monospace;max-width:590px;margin:0 0 32px!important;color:#3c4b51}
+.trade-jump{display:inline-flex;gap:40px;align-items:center;justify-content:space-between;background:#b9562d;color:#fff5e8;padding:17px 22px;text-decoration:none;font:800 12px/1.3 'Courier New',monospace;letter-spacing:.11em;transition:background .2s,transform .2s}
+.trade-jump:hover,.trade-jump:focus-visible{background:#923c23;transform:translateY(-1px);color:#fff}
+.trade-jump span{font-size:22px;line-height:1}
+.trade-hero-graphic{background:#0a2737;position:relative;overflow:hidden;isolation:isolate;min-height:530px;background-image:linear-gradient(140deg,#163f4c,#081e2b 70%)}
+.trade-circle{position:absolute;border:1.5px solid rgba(206,154,98,.31);width:105%;aspect-ratio:1;border-radius:50%;left:50%;top:47%;transform:translate(-50%,-50%)}
+.trade-circle-2{width:79%;border-color:rgba(228,171,104,.42)}.trade-circle-3{width:53%;border-color:rgba(228,171,104,.55)}
+.trade-hero-graphic:before,.trade-hero-graphic:after{content:"";position:absolute;z-index:-1;left:0;right:0;height:7px;background:#b9562d}
+.trade-hero-graphic:before{top:0}.trade-hero-graphic:after{bottom:0;background:linear-gradient(90deg,#ad6538 0 33%,#c79a58 33% 66%,#126d8e 66%)}
+.trade-center{position:absolute;left:50%;top:47%;transform:translate(-50%,-50%);background:#082431;display:flex;justify-content:center;align-items:center;width:37%;min-width:155px;aspect-ratio:1;border-radius:50%;box-shadow:0 0 0 1px #bd8b60,0 0 0 8px #07222e}
+.trade-center img{width:min(78%,240px);height:auto}
+.trade-graphic-caption{position:absolute;bottom:24px;left:28px;right:28px;text-align:center;color:#ddbc98;font:700 10px 'Courier New',monospace;letter-spacing:.16em}
+.trade-context{background:#0a2b3a;color:#f1e5d4;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-bottom:1px solid #825d43}
+.trade-context>div{padding:43px clamp(25px,4vw,70px) 46px;border-right:1px solid #3b5664}.trade-context>div:last-child{border-right:0}
+.trade-number{font:700 11px 'Courier New',monospace;color:#c38958;letter-spacing:.15em}
+.trade-context h2{font:900 clamp(26px,2.25vw,41px)/1 Impact,'Roboto Condensed','Arial Narrow',sans-serif;letter-spacing:.01em;margin:18px 0 16px;color:#f5ebd8}
+.trade-context p{font:13px/1.75 'Courier New',monospace;color:#d6c8b6;margin:0;max-width:360px}
+.trade-contact{display:grid;grid-template-columns:minmax(280px,.82fr) minmax(0,1.18fr);background:#f3e6d2;color:#0a2a38;border-bottom:7px solid #b9562d}
+.trade-contact-intro{padding:76px clamp(28px,5vw,75px);background-image:radial-gradient(#b78d6333 .6px,transparent 1px);background-size:9px 9px;border-right:1px solid #ccb392}
+.trade-contact h2{font-size:clamp(58px,6.5vw,100px)!important;line-height:.89!important;margin:0 0 30px!important}
+.trade-contact-intro>p:not(.trade-eyebrow){font:14px/1.9 'Courier New',monospace;color:#394b52;max-width:460px}
+.trade-contact-signoff{border-top:1px solid #ba9570;margin-top:70px;padding-top:14px;display:flex;flex-direction:column;gap:7px;font:700 10px 'Courier New',monospace;color:#795f49;letter-spacing:.13em}
+.trade-form-wrap{padding:65px clamp(28px,5.5vw,88px) 76px}
+.trade-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:25px;row-gap:27px}
+.trade-field{display:flex;flex-direction:column;gap:11px;min-width:0}.trade-full{grid-column:1/-1}
+.trade-field label{color:#294353;font:700 11px/1.4 'Courier New',monospace;letter-spacing:.09em}
+.trade-field label>span[aria-hidden]{color:#a8522f}.trade-optional{color:#68727b;font-size:9px}
+.trade-field input,.trade-field select,.trade-field textarea{width:100%;border:1px solid #bfa487;background:#fff9ee;color:#102b3a;border-radius:0;padding:15px 14px;font:14px/1.5 'Courier New',monospace;box-shadow:none;min-height:52px;appearance:none;-webkit-appearance:none}
+.trade-field textarea{resize:vertical;min-height:145px}
+.trade-field select{background-image:url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"%3E%3Cpath d="m3 6 5 5 5-5" fill="none" stroke="%23334f61" stroke-width="2"/%3E%3C/svg%3E');background-position:right 16px center;background-repeat:no-repeat;padding-right:38px}
+.trade-field input:focus-visible,.trade-field select:focus-visible,.trade-field textarea:focus-visible{outline:3px solid #bc7338;outline-offset:2px}
+.trade-field input::placeholder,.trade-field textarea::placeholder{color:#7d7d7a;opacity:1}
+.trade-honeypot{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important}
+.trade-privacy-note{font:12px/1.85 'Courier New',monospace;color:#435661;margin:24px 0 20px!important;max-width:620px}
+.trade-privacy-note a,.trade-privacy-page a{color:#a74d2b;font-weight:700;text-underline-offset:3px}
+.trade-submit{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:45px;width:100%;max-width:345px;text-align:left;background:#b9562d;color:#fff5e8;border:2px solid #b9562d;font:800 13px/1.3 'Courier New',monospace;letter-spacing:.13em;padding:17px 20px;transition:background .2s,transform .2s}
+.trade-submit:hover{background:#893a25;transform:translateY(-1px)}.trade-submit span{font-size:26px;line-height:1}
+.trade-outro{display:flex;gap:20px;justify-content:space-between;align-items:center;flex-wrap:wrap;background:#082632;color:#d9b186;padding:30px clamp(28px,5vw,75px);font:700 10px 'Courier New',monospace;letter-spacing:.15em}.trade-outro strong{font:italic 24px Georgia,serif;letter-spacing:0;color:#d58a49}
+.sg-trade-footer-privacy{color:#e0a77a!important}
+.trade-thanks{min-height:570px;display:flex;align-items:center;background:#f3e6d2;background-image:radial-gradient(#b78d6338 .6px,transparent 1px);background-size:9px 9px;padding:85px 8%}
+.trade-thanks-inner{max-width:960px}.trade-thanks h1{font-size:clamp(75px,9vw,145px)!important;line-height:.9!important}
+.trade-thanks p:not(.trade-eyebrow){max-width:680px;color:#314855;font:16px/1.8 'Courier New',monospace;margin:0 0 30px}
+.trade-privacy-page{background:#f3e6d2;background-image:radial-gradient(#b78d632e .6px,transparent 1px);background-size:9px 9px;min-height:700px;padding:75px max(7%,calc((100vw - 1060px)/2)) 100px}
+.trade-privacy-page h1{font-size:clamp(68px,9vw,134px)!important;margin-bottom:40px!important}
+.trade-privacy-page h2{font:900 30px/1.1 Impact,'Roboto Condensed',sans-serif;color:#082837;letter-spacing:.02em;margin:33px 0 12px}
+.trade-privacy-page p{font:14px/1.9 'Courier New',monospace;color:#34444e;max-width:860px}
+.trade-privacy-page .trade-privacy-intro{font-size:16px;max-width:850px;border-bottom:1px solid #b79a80;padding-bottom:22px}
+.trade-privacy-page .trade-privacy-updated{margin-top:45px;font-size:11px;color:#73583f;letter-spacing:.1em}
+@media(max-width:1050px){.trade-hero{grid-template-columns:1fr}.trade-hero-graphic{min-height:360px}.trade-hero-copy{padding:35px 6% 62px}.trade-hero .trade-eyebrow{margin-top:70px!important}.trade-context{grid-template-columns:1fr 1fr 1fr}.trade-context>div{padding:34px 25px}.trade-contact{grid-template-columns:1fr}.trade-contact-intro{border-right:0;border-bottom:1px solid #ccb392;padding:60px 6% 40px}.trade-contact-signoff{margin-top:25px}.trade-form-wrap{padding:46px 6% 65px}}
+@media(max-width:680px){.trade-hero h1{font-size:clamp(67px,14.3vw,95px)!important}.trade-prelude span:last-child{display:none}.trade-hero .trade-eyebrow{margin-top:50px!important;font-size:9px!important}.trade-hero-graphic{min-height:340px}.trade-circle{width:95%}.trade-circle-2{width:76%}.trade-circle-3{width:55%}.trade-context{grid-template-columns:1fr}.trade-context>div{border-bottom:1px solid #365465;border-right:0;padding:32px 7%}.trade-contact h2{font-size:clamp(56px,12vw,90px)!important}.trade-form-grid{grid-template-columns:1fr;row-gap:21px}.trade-contact-intro,.trade-form-wrap{padding-left:7%;padding-right:7%}.trade-outro{flex-direction:column;text-align:center}.trade-privacy-page{padding:55px 7% 85px}.trade-privacy-page h1{font-size:clamp(65px,13vw,100px)!important}.trade-thanks{padding:55px 7%;min-height:520px}.trade-thanks h1{font-size:clamp(67px,13vw,105px)!important}}
+@media(prefers-reduced-motion:reduce){.trade-submit,.trade-jump{transition:none}}
+
+/* V6.5 visual refinement: controlled typography, aligned form and resilient widths. */
+.sg-trade-page{overflow-x:clip}
+.sg-trade-page .trade-hero{grid-template-columns:minmax(0,55fr) minmax(0,45fr);min-height:570px}
+.sg-trade-page .trade-hero-copy{min-width:0;padding:35px clamp(28px,5.2vw,84px) 64px}
+.sg-trade-page .trade-hero h1{font-size:clamp(69px,7.1vw,117px)!important;line-height:.91!important;max-width:100%}
+.sg-trade-page .trade-hero .trade-intro{font-size:15px;line-height:1.75;max-width:52ch}
+.sg-trade-page .trade-contact{grid-template-columns:minmax(0,42fr) minmax(0,58fr);align-items:stretch}
+.sg-trade-page .trade-contact-intro{min-width:0;padding:clamp(56px,5vw,78px) clamp(30px,4.2vw,70px);}
+.sg-trade-page .trade-contact h2{font-size:clamp(42px,4.4vw,76px)!important;letter-spacing:-.048em!important;line-height:.98!important;max-width:100%;overflow-wrap:normal}
+.sg-trade-page .trade-contact-intro>p:not(.trade-eyebrow){font-size:14px;line-height:1.8}
+.sg-trade-page .trade-form-wrap{min-width:0;padding:clamp(49px,5vw,75px) clamp(29px,4.8vw,78px) clamp(58px,5.5vw,80px)}
+.sg-trade-page #sg-trade-form{width:100%;max-width:720px;margin:0 auto;display:block}
+.sg-trade-page .trade-form-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 22px;align-items:start}
+.sg-trade-page .trade-field{display:flex;flex-direction:column;align-items:stretch;min-width:0;gap:9px;margin:0}
+.sg-trade-page .trade-field>label{display:block;color:#244151;font:700 11px/1.45 'Courier New',monospace;letter-spacing:.09em;margin:0;text-align:left}
+.sg-trade-page .trade-field>input,.sg-trade-page .trade-field>select,.sg-trade-page .trade-field>textarea{box-sizing:border-box;display:block;max-width:100%;width:100%;margin:0;border:1px solid #bba185!important;border-radius:0!important;background-color:#fffaf0!important;color:#0c2838!important;padding:14px 15px!important;min-height:52px;font:14px/1.5 'Courier New',monospace!important;letter-spacing:0!important;box-shadow:none!important;opacity:1}
+.sg-trade-page .trade-field>textarea{min-height:170px;resize:vertical}
+.sg-trade-page .trade-field>select{padding-right:37px!important;background-repeat:no-repeat;background-position:right 15px center;cursor:pointer}
+.sg-trade-page .trade-form-wrap .trade-privacy-note{margin:24px 0 22px!important}
+.sg-trade-page .trade-form-wrap .trade-submit{min-height:58px;margin:0;padding:15px 20px;justify-content:space-between;align-items:center;max-width:340px}
+.sg-trade-page .trade-hero-graphic{min-width:0}
+.sg-trade-page .trade-context>div{min-width:0}
+.sg-trade-page .trade-context h2{font-size:clamp(23px,2.2vw,35px)}
+@media (max-width:1080px){
+ .sg-trade-page .trade-hero{grid-template-columns:minmax(0,1fr)}
+ .sg-trade-page .trade-hero-copy{padding:37px 6% 60px}
+ .sg-trade-page .trade-hero h1{font-size:clamp(72px,9vw,105px)!important}
+ .sg-trade-page .trade-hero-graphic{min-height:370px}
+ .sg-trade-page .trade-contact{grid-template-columns:minmax(0,1fr)}
+ .sg-trade-page .trade-contact-intro{padding:58px 7% 35px}
+ .sg-trade-page .trade-contact h2{font-size:clamp(62px,8vw,92px)!important}
+ .sg-trade-page .trade-form-wrap{padding:47px 7% 68px}
+ .sg-trade-page #sg-trade-form{margin:0;max-width:780px}
+ .sg-trade-page .trade-contact-signoff{margin-top:25px}
+}
+@media (max-width:680px){
+ .sg-trade-page .trade-hero h1{font-size:clamp(55px,12.6vw,81px)!important}
+ .sg-trade-page .trade-hero-copy{padding:28px 6% 46px}
+ .sg-trade-page .trade-hero-graphic{min-height:300px}
+ .sg-trade-page .trade-contact h2{font-size:clamp(42px,9.8vw,67px)!important}
+ .sg-trade-page .trade-form-grid{grid-template-columns:minmax(0,1fr);row-gap:23px}
+ .sg-trade-page .trade-field.trade-full{grid-column:1}
+ .sg-trade-page .trade-contact-intro,.sg-trade-page .trade-form-wrap{padding-left:6%;padding-right:6%}
+ .sg-trade-page .trade-form-wrap .trade-submit{max-width:none}
+ .sg-trade-page .trade-context h2{font-size:28px}
+}
+
+
+/* V6.6 approved Trade hero only: use unaltered photo at natural 998:1500 ratio.
+   Widen the paper text panel; preserve existing site typography and navigation. */
+.sg-trade-page .trade-hero{grid-template-columns:minmax(0,70fr) minmax(0,30fr);align-items:stretch;min-height:0}
+.sg-trade-page .trade-hero-photo{min-height:0;display:flex;align-items:flex-start;justify-content:center;position:relative;overflow:hidden;background:#11100d;border-top:7px solid #b9562d}
+.sg-trade-page .trade-hero-photo:before,.sg-trade-page .trade-hero-photo:after{content:none!important}
+.sg-trade-page .trade-hero-photo img{display:block;width:100%;height:auto;aspect-ratio:998 / 1500;max-width:100%;object-fit:contain;object-position:center;flex-shrink:0}
+.sg-trade-page .trade-hero-copy{justify-content:initial}
+.sg-trade-page .trade-hero .trade-jump{box-sizing:border-box;position:relative;display:flex;justify-content:center;align-items:center;min-height:67px;width:min(100%,360px);padding:17px 45px;gap:0;border:2px solid #101010;text-align:center;font:900 14px/1.2 'Courier New',monospace;letter-spacing:.065em;color:#fffaf0}
+.sg-trade-page .trade-hero .trade-jump-label{display:block;width:100%;text-align:center;white-space:nowrap;font-size:clamp(13px,1.1vw,16px);line-height:1.2;letter-spacing:.04em}
+.sg-trade-page .trade-hero .trade-jump-arrow{position:absolute;right:16px;top:50%;transform:translateY(-50%);font-size:23px;line-height:1}
+@media(max-width:1080px){
+ .sg-trade-page .trade-hero{grid-template-columns:minmax(0,1fr)}
+ .sg-trade-page .trade-hero-photo{width:100%;min-height:0}
+ .sg-trade-page .trade-hero-photo img{width:min(100%,640px);height:auto;object-fit:contain}
+}
+@media(max-width:680px){
+ .sg-trade-page .trade-hero .trade-jump{width:min(100%,360px);min-height:63px;padding:15px 39px;font-size:12px}
+ .sg-trade-page .trade-hero .trade-jump-label{font-size:13px;letter-spacing:0}
+ .sg-trade-page .trade-hero .trade-jump-arrow{right:12px}
+}

@@ -1,0 +1,157 @@
+/* Stone Groove Craft. All Four Expressions gallery markup and styles are reused from Collection V5. */
+.cft-main{--cft-ink:#09232f;--cft-navy:#082837;--cft-copper:#b7542d;--cft-cream:#f2e6d5;--cft-mono:"Courier New",Cousine,monospace;background:var(--cft-cream);color:var(--cft-ink);overflow:hidden}
+.cft-main *,.cft-main *:before,.cft-main *:after{box-sizing:border-box}
+.cft-main a{text-decoration:none}
+.cft-sr{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important}
+.cft-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);min-height:684px;border-bottom:7px solid var(--cft-copper);background:#ede0ce}
+.cft-hero-paper{position:relative;display:flex;flex-direction:column;padding:32px clamp(34px,4.5vw,82px) 28px clamp(39px,5vw,95px);border-right:5px solid #0b3448;background:#f2e4cf;box-shadow:inset 0 0 24px #ad8c6856;background-image:linear-gradient(115deg,#fff7e889,#e7cbb12c),url("../assets/images/a53dd0cb05-collection-v4-paper-grain.webp");background-size:100% 100%,620px auto}
+.cft-hero-paper:before,.cft-editorial:before,.cft-signature:before{content:"";position:absolute;left:0;top:0;bottom:0;width:10px;background:url("../assets/images/38080388c8-collection-v3-edge-strip.webp") center/85px auto repeat-y;pointer-events:none}
+.cft-colored-rail{position:absolute;right:0;top:0;bottom:0;width:12px;display:flex;flex-direction:column;opacity:.93}
+.cft-colored-rail i{flex:1;background:#0f658b}
+.cft-colored-rail i:nth-child(2){background:#e1a43c}
+.cft-colored-rail i:nth-child(3){background:#bf5030}
+.cft-colored-rail i:nth-child(4){background:#093b51}
+.cft-headpiece{display:flex;align-items:center;justify-content:space-between;gap:15px;border-block:1px solid #977b60;padding:12px 0;color:#315262;font:700 10px/1.4 var(--cft-mono);letter-spacing:.1em}
+.cft-headpiece span:last-child{color:#a95530;text-align:right}
+.cft-title{margin:clamp(22px,2.4vw,43px) 0 0;font-size:0;line-height:0}
+.cft-title img{display:block;width:100%;max-width:none;height:auto;mix-blend-mode:multiply;filter:contrast(1.07)}
+.cft-hero-strap{font:900 clamp(18px,1.77vw,26px)/1.19 "Inter Display","Arial Black",Arial,sans-serif;letter-spacing:-.045em;text-transform:uppercase;margin:13px 0 17px;color:#123746}
+.cft-hero-strap strong{color:#b0572c}
+.cft-hero-body{font:clamp(13px,1.04vw,16px)/1.65 var(--cft-mono);max-width:67ch;color:#3c5160;margin:9px 0 26px}
+.cft-hero-bottom{display:flex;justify-content:space-between;gap:15px;border-top:1px solid #a68564;margin-top:auto;padding:15px 0 0;color:#9d502e;font:700 10px/1.4 var(--cft-mono);letter-spacing:.075em}
+.cft-audition-stage{min-width:0;display:flex;flex-direction:column;background:#082736 url("../assets/images/3e014252f0-collection-v4-worn-navy.webp") center/185px auto repeat;position:relative;isolation:isolate}
+.cft-audition-stage:before{content:"";position:absolute;left:0;top:0;bottom:0;width:15px;z-index:4;background:linear-gradient(90deg,#095477 0 28%,#daa03c 28% 55%,#bf4e35 55% 79%,#f0debb 79% 88%,#082b3c 88% 100%);pointer-events:none}
+.cft-audition-top{position:relative;z-index:1;padding:20px 25px 18px 39px;display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid #bd875b77;color:#f0d6b2;font:700 10px/1.4 var(--cft-mono);letter-spacing:.075em}
+.cft-audition-top span:last-child{color:#d19d6c;text-align:right}
+.cft-audition-image{flex:1;position:relative;min-height:0;overflow:hidden;margin:0;background:#0a202b;border-bottom:1px solid #b57e55}
+.cft-audition-image img{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:cover;object-position:center 54%}
+.cft-audition-image:after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 24px #030e1545;pointer-events:none}
+.cft-audition-bottom{min-width:0;display:flex;align-items:flex-end;justify-content:space-between;gap:18px;padding:19px 25px 22px 40px;background:linear-gradient(105deg,#082b3af5,#0b3a4fd8)}
+.cft-audition-bottom-left{display:flex;min-width:0;flex:1;flex-direction:column;gap:8px}
+.cft-audition-index{font:700 10px/1.4 var(--cft-mono);letter-spacing:.15em;color:#e2ae7b}
+.cft-audition-credit{max-width:162px;flex-shrink:0;color:#c7a287;font:700 8px/1.5 var(--cft-mono);letter-spacing:.09em;text-align:right}
+.cft-main .cft-art-heading{display:block;margin:0 0 22px;max-width:100%;min-width:0;font-size:0;line-height:0;letter-spacing:0}
+.cft-main .cft-art-heading img{display:block;width:100%;height:auto;max-width:100%;object-fit:contain;object-position:left center}
+.cft-main .cft-art-audition{max-width:460px;margin:0}
+.cft-art-audition img{width:100%;max-height:91px;object-position:left center}
+.cft-editorial{position:relative;padding:50px clamp(25px,4vw,75px);border-bottom:6px solid #b85630}
+.cft-editorial-inner{max-width:1500px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1.01fr) minmax(0,.99fr);gap:clamp(26px,3vw,52px);align-items:stretch}
+.cft-editorial-material{background:#eee0cc;background-image:linear-gradient(130deg,#fffaeea3,#e1c2a331),url("../assets/images/a53dd0cb05-collection-v4-paper-grain.webp");background-size:100% 100%,580px auto}
+.cft-editorial-arrangement{background:#082936;background-image:linear-gradient(175deg,#082838f0,#061f2bee),url("../assets/images/3e014252f0-collection-v4-worn-navy.webp");background-size:100% 100%,185px auto}
+.cft-editorial-arrangement .cft-editorial-inner{grid-template-columns:minmax(0,.96fr) minmax(0,1.04fr)}
+.cft-editorial-copy{min-width:0;position:relative;display:flex;flex-direction:column;justify-content:center;padding:clamp(25px,3vw,44px);background:#f4e7d5;background-image:linear-gradient(120deg,#fff8ed7f,#dfbfa437),url("../assets/images/a53dd0cb05-collection-v4-paper-grain.webp");background-size:100% 100%,520px auto;border:1px solid #c4a583;box-shadow:10px 12px 0 #132b3940}
+.cft-editorial-copy:before{content:"";position:absolute;inset:8px;border:1px solid #bea28283;pointer-events:none}
+.cft-editorial-kicker{color:#a44b28;font:700 11px/1.3 var(--cft-mono);letter-spacing:.15em;margin-bottom:15px}
+.cft-editorial .cft-art-heading{margin-bottom:20px;max-width:95%}
+.cft-editorial-material .cft-art-heading{max-width:385px}
+.cft-editorial-arrangement .cft-art-heading{max-width:370px}
+.cft-editorial p,.cft-signature p{font:clamp(13px,1.01vw,16px)/1.72 var(--cft-mono);color:#354d5a;margin:0 0 16px;max-width:68ch}
+.cft-pill-list{display:flex;flex-wrap:wrap;gap:9px;margin-top:10px}
+.cft-pill-list span{border:1px solid #224457;background:#f2e4cf;padding:9px 12px;color:#123344;font:700 10px/1.2 var(--cft-mono);letter-spacing:.055em}
+.cft-editorial-note{border-top:1px solid #a99177;margin-top:22px;padding-top:15px;font:700 12px/1.55 var(--cft-mono);letter-spacing:.11em;text-transform:uppercase;color:#9b4927}
+.cft-editorial-image{position:relative;min-width:0;margin:0;overflow:hidden;border:1px solid #c9a984;box-shadow:12px 14px 0 #152d3a52;background:#0a202c;min-height:100%}
+.cft-editorial-image img{display:block;width:100%;height:100%;object-fit:cover}
+.cft-editorial-material .cft-editorial-image img{object-position:center center}
+.cft-editorial-arrangement .cft-editorial-image img{object-position:center top}
+.cft-editorial-image:after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 25px #04182350;pointer-events:none}
+.cft-signature{position:relative;padding:54px clamp(25px,4vw,75px);background-color:#082a39;background-image:linear-gradient(140deg,#092939f2,#13384af0),url("../assets/images/3e014252f0-collection-v4-worn-navy.webp");background-size:100% 100%,155px auto;border-bottom:6px solid #b85630}
+.cft-signature-panel{max-width:1500px;margin:auto;padding:clamp(24px,3.4vw,47px);display:grid;grid-template-columns:minmax(0,1fr) minmax(170px,280px);gap:clamp(35px,4vw,65px);align-items:center;border:1px solid #c08c5999;box-shadow:10px 11px 0 #010f1880;background:linear-gradient(115deg,#082635b5,#11425a66)}
+.cft-signature .cft-editorial-kicker{color:#d7aa86}
+.cft-signature .cft-art-heading{max-width:760px;margin-bottom:21px}
+.cft-signature p{max-width:78ch;color:#e5d4c0}
+.cft-signature p a{color:#f1bc8e;text-decoration:underline;text-underline-offset:4px}
+.cft-signature-mark{display:flex;justify-content:center;align-items:center}
+.cft-signature-mark img{display:block;width:min(100%,250px);height:auto;filter:drop-shadow(0 10px 18px #0008)}
+.cft-signature-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:21px}
+.cft-signature-actions a{min-width:205px;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 19px;border:2px solid #d5b08b;font:900 clamp(13px,1vw,16px)/1.2 "Inter Display","Arial Black",Arial,sans-serif;letter-spacing:-.025em;text-transform:uppercase;transition:transform .23s ease,filter .23s ease}
+.cft-signature-actions a:hover{transform:translateY(-3px);filter:brightness(1.07)}
+.cft-main-link{background:#b6522d;color:#f9e9d7}
+.cft-secondary-link{background:transparent;color:#f1e1cd}
+@media (max-width:1190px){.cft-hero{grid-template-columns:1fr 1fr;min-height:615px}
+.cft-hero-paper{padding-left:6%;padding-right:5%}
+.cft-hero-strap{font-size:20px}
+.cft-hero-body{font-size:14px}
+.cft-audition-top{font-size:8px}
+.cft-audition-credit{max-width:115px;font-size:8px}}
+@media (max-width:980px){.cft-hero{display:block;min-height:0}
+.cft-hero-paper{padding:29px 7% 31px;border-right:0;border-bottom:6px solid #b65731}
+.cft-title{max-width:670px}
+.cft-hero-strap{font-size:clamp(19px,2.8vw,28px)}
+.cft-hero-body{font-size:15px}
+.cft-audition-image{height:auto;min-height:0;aspect-ratio:3/2;flex:none}
+.cft-audition-image img{position:absolute}
+.cft-editorial-inner,.cft-editorial-arrangement .cft-editorial-inner,.cft-signature-panel{grid-template-columns:1fr}
+.cft-editorial-material .cft-editorial-image{order:-1}
+.cft-editorial-image{min-height:410px}
+.cft-signature-mark{justify-content:flex-start}
+.cft-signature-mark img{max-width:180px}}
+@media (max-width:620px){.cft-hero-paper{padding:20px 24px 28px 27px}
+.cft-headpiece{font-size:8px;letter-spacing:.035em}
+.cft-headpiece span:first-child{max-width:48%}
+.cft-title{margin:23px 0 0}
+.cft-hero-strap{font-size:19px;line-height:1.23;margin:13px 0 14px}
+.cft-hero-body{font-size:13px;line-height:1.65}
+.cft-hero-bottom{font-size:8px;letter-spacing:0}
+.cft-audition-top{padding:13px 13px 12px 26px;font-size:7px;letter-spacing:.025em}
+.cft-audition-top span:last-child{max-width:50%}
+.cft-audition-image{aspect-ratio:3/2;min-height:0}
+.cft-audition-bottom{padding:13px 16px 17px 26px;gap:10px}
+.cft-audition-index{font-size:8px}
+.cft-art-audition img{max-height:72px}
+.cft-audition-credit{font-size:7px;max-width:100px;letter-spacing:0}
+.cft-editorial,.cft-signature{padding:29px 18px}
+.cft-editorial-inner{gap:22px}
+.cft-editorial-copy,.cft-signature-panel{padding:24px 21px}
+.cft-editorial .cft-art-heading{max-width:100%}
+.cft-editorial p,.cft-signature p{font-size:13px;line-height:1.65}
+.cft-pill-list span{font-size:9px}
+.cft-editorial-note{font-size:10px}
+.cft-editorial-image{min-height:300px;box-shadow:7px 8px 0 #152d3a52}
+.cft-signature .cft-art-heading{max-width:100%}
+.cft-signature-mark img{max-width:135px}
+.cft-signature-actions{flex-direction:column}
+.cft-signature-actions a{width:100%;min-width:0}}
+@media (prefers-reduced-motion:reduce){.cft-signature-actions a{transition:none!important;animation:none!important}}
+.cft-main .col3-catalog{border-top:7px solid #b8562c;border-bottom:6px solid #082736}
+.cft-approved-collection-heading{position:relative;z-index:2;text-align:center;max-width:970px;margin:0 auto 35px;padding:0 clamp(1px,3vw,36px)}
+.cft-approved-collection-overline{border-bottom:1px solid #a28a6c;padding:0 0 13px;margin:0 0 21px;color:#aa522d;font:700 11px/1.4 "Courier New",monospace;letter-spacing:.16em}
+.cft-approved-collection-title{font-size:0;line-height:0;margin:0 auto;max-width:850px}
+.cft-approved-collection-title img{display:block;width:100%;height:auto;mix-blend-mode:multiply}
+.cft-approved-collection-deck{font:clamp(13px,1.05vw,17px)/1.55 "Courier New",monospace;color:#33515e;margin:18px auto 0;max-width:66ch}
+@media (max-width:600px){.cft-approved-collection-heading{margin-bottom:22px;padding:0 1px}
+.cft-approved-collection-overline{font-size:9px;margin-bottom:14px}
+.cft-approved-collection-deck{font-size:12px;margin-top:13px}}
+/* V10: The THREE supporting headlines are LIVE TEXT, using the identical font declaration
+   and typography metrics from approved V5 product pages (country/blues/classic/jazz).
+   No rasterized replacement lettering, no reconstructed letterforms, no new font. */
+.cft-main .cft-heading{
+  margin:0 0 22px;
+  font-family:var(--display);  /* inherited verbatim from blues.css / approved product CSS */
+  font-stretch:condensed;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:-.046em;
+  line-height:.92;
+  font-size:clamp(49px,5vw,84px);
+  color:#0b2939;
+  overflow-wrap:normal;
+}
+.cft-main .cft-heading>span{display:block;white-space:nowrap}
+.cft-main .cft-heading .cft-heading-accent{color:#b9562d}
+.cft-main .cft-heading-signature{font-size:clamp(44px,4.65vw,82px);color:#f4e7d5}
+.cft-main .cft-heading-signature>span{white-space:normal}
+.cft-main .cft-heading-signature .cft-heading-accent{color:#cb7041}
+@media(max-width:1190px){
+  .cft-main .cft-heading{font-size:clamp(42px,5.25vw,67px)}
+  .cft-main .cft-heading-signature{font-size:clamp(43px,5vw,71px)}
+}
+@media(max-width:980px){
+  .cft-main .cft-heading{font-size:clamp(47px,7vw,78px)}
+  .cft-main .cft-heading-signature{font-size:clamp(44px,7vw,80px)}
+}
+@media(max-width:620px){
+  .cft-main .cft-heading{font-size:clamp(32px,9.5vw,58px);margin-bottom:18px;letter-spacing:-.055em}
+  .cft-main .cft-heading-material{font-size:clamp(31px,9.15vw,55px)}
+  .cft-main .cft-heading-arrangement{font-size:clamp(29px,8.8vw,53px)}
+  .cft-main .cft-heading-signature{font-size:clamp(35px,9.4vw,59px)}
+}
